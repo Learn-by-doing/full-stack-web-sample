@@ -1,0 +1,13 @@
+Create simple web page to display data from a database
+
+phmyadmin:
+ - Create database
+ - Create table in database
+ - Put data in table
+
+in nodejs:
+ - Connect to database
+ - Get data from database table
+ - Create HTML template
+ - Create web server (express) to connect everything together
+ 

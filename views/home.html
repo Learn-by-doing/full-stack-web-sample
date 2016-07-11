@@ -1,0 +1,10 @@
+<h1>Example App: Home</h1>
+{{#each books}}
+<p>{{title}} - {{description}} - <a href="/books/delete/{{id}}">DELETE</a></p>
+{{/each}}
+
+<form method="post" action="/books">
+	<h2>Add a Book</h2>
+	<label for="book-title">Book Title</label>
+	<input id="book-title" name="title" type="text">
+</form>
